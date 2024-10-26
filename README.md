@@ -1,27 +1,40 @@
-# Portifolio
+# Challenge desafio-portifolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
-## Development server
+## Descrição
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto é uma atividade do curso Oracle e Alura. Consiste em aplicar os conhecimentos aprendidos durante o curso para criar um portifolio com o conhecimento das aulas.
 
-## Code scaffolding
+O desafio foi criar o portifolio somente com HTML, CSS e Javascript sem usar framework como Bootstrap que facilita bem e assim trás agilidade na produção, na responsividade de mobile deu um pouco de trabalho mas deu tuo certo. .
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
+[![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Imagens Projeto
 
-## Running unit tests
+https://github.com/CamillaEruya/codificador-de-texto/tree/main/desafio/img
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<img src="./portifolio/img/portifolio1.png">
+<img src="./portifolio/img/portifolio2.png">
+<img src="./portifolio/img/portifolio3.png">
+<img src="./portifolio/img/portifolio4.png">
+<img src="./portifolio/img/portifolio5.png">
+<img src="./portifolio/img/portifolioContato1.png">
+<img src="./portifolio/img/portifolioContato2.png">
+<img src="./portifolio/img/portifolioRespMobile1.png">
+<img src="./portifolio/img/portifolioRespMobile2.png">
+<img src="./portifolio/img/portifolioRespTablet1.png">
+<img src="./portifolio/img/portifolioRespTablet2.png">
+<img src="./portifolio/img/portifolioRespMenu.png">
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Desenvolvido por
+
+Camilla Silveira (Camila Eruya)
