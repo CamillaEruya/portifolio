@@ -15,7 +15,7 @@ O desafio foi criar o portifolio somente com HTML, CSS e Javascript sem usar fra
 
 ## Imagens Projeto
 
-https://github.com/CamillaEruya/codificador-de-texto/tree/main/desafio/img
+[https://github.com//CamillaEruya/portifolio/tree/master/img]
 
 <img src="./portifolio/img/portifolio1.png">
 <img src="./portifolio/img/portifolio2.png">
