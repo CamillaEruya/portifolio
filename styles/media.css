@@ -1,0 +1,90 @@
+/* XS abaixo: 575 celular
+SM até: 767 tablet
+MD até: 991 monitor pequeno
+LG até: 1199 monitor medio
+XL acima: 1200 monitor grande ou tv */
+
+/* Para telas extra pequenas (XS) - menos que 576px */
+@media (max-width: 575.98px) { 
+    .hide_xs {
+        display: none; /* Esconde elementos específicos no XS */
+    }
+
+    .margim_scroll{
+        margin-top: 0px;
+    }
+   
+    .flex-container{
+        display: block!important;
+    }
+}
+
+/* Para telas pequenas (SM) - entre 576px e 767.98px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hide_sm {
+        display: none; /* Esconde elementos específicos no SM */
+    }
+    
+    .margim_scroll{
+        margin-top: 0px;
+    }
+
+    .expe_icon_sm {
+        height: 60px; /* Ajusta a altura dos ícones específicos para o SM */
+    }
+
+    .flex-container{
+        display: block!important;
+    }
+}
+
+/* Para telas médias (MD) - entre 768px e 991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hide_md {
+        display: none; /* Esconde elementos específicos no MD */
+    }
+
+    .margim_scroll{
+        margin-top: 40px;
+    }
+    
+    .flex-container {
+        flex-direction: row; /* Alinhamento em linha para telas maiores */
+        justify-content: space-between; /* Distribui o espaço entre os itens */
+    }
+    
+    .apresentacao__conteudo {
+        flex: 1;
+        max-width: 600px; /* Limita a largura do conteúdo para MD */
+    }
+    
+    .imagem-sobre-mim img {
+        max-width: 250px; /* Ajusta o tamanho da imagem para MD */
+    }
+    
+    .apresentacao__links__link {
+        width: auto; /* Ajusta o tamanho dos links conforme o conteúdo */
+    }
+
+    .hobbie__img{
+        max-width: 200px;
+    }
+
+    .hobbie__img img{
+        max-width: 200px;
+    }
+}
+
+/* Para telas grandes (LG) - entre 992px e 1199.98px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hide_lg {
+        display: none; /* Esconde elementos específicos no LG */
+    }
+}
+
+/* Para telas extra grandes (XL) - acima de 1200px */
+@media (min-width: 1200px) {
+    .hide_xl {
+        display: none; /* Esconde elementos específicos no XL */
+    }
+}

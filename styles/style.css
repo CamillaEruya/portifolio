@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    display: flex;
+}
+
+body {
+    font-family:  'Montserrat', sans-serif;
+    background-color: #000000;
+    color: #e3cf5f;
+}
+
+
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.nav {
+    background-color:#e3cf5f; 
+    text-align:right;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+.nav ul li a {
+    text-decoration: none;
+    color: #6b643c;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+.nav ul li a:hover {
+    background-color: white;
+    color: #414145;
+    border-radius: 4px;
+}
+
+.navMobile {
+    background-color: #e3cf5f;
+    color: #000000;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 10px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    display: none;
+    width: 200px;
+    z-index: 999; /* Garante que o menu móvel esteja sobre outros elementos */
+}
+
+.navMobile ul {
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.navMobile ul li {
+    display: flex; 
+    flex-direction: column; 
+    align-items:first baseline;
+    margin: 0 5px;
+}
+
+
+.navMobile ul li a {
+    text-decoration: none;
+    color: #6b643c;
+    font-size: 15px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+.navMobile ul li a:hover {
+    background-color: white;
+    color: #414145;
+    border-radius: 4px;
+}
+
+
+.menuButton{
+    background-color: #e3cf5f;
+    color: #000000;
+    padding: 8px 10px;
+    border: #000000 1px solid;
+    border-radius: 50%;
+    font-size: large;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.apresentacao {   
+    margin: 20px;
+    color: #e3cf5f;
+    min-height: 100vh;
+    clear: both;
+}
+
+
+.espaco {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left; /* Alinha o parágrafo com o restante do texto */
+}    
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinha os itens no topo */
+    gap: 20px; /* Espaço entre o texto e a imagem */
+    width: 100%;
+}
+
+.margim_scroll{
+    margin-top: 80px;
+}
+    
+
+
+.apresentacao__conteudo {
+    max-width: 600px;
+    flex: 1 1 60%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.imagem-sobre-mim {
+    max-width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.imagem-sobre-mim img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+   height: auto; /* Mantém a proporção da imagem */
+    max-height: 400px; /* Define uma altura máxima */
+    object-fit: cover; /* Ajusta a imagem para caber no container sem distorção */
+    border-radius: 50%; /* Bordas arredondadas, opcional */
+}
+
+
+.apresentacao__links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.apresentacao__links__link{
+    background-color: #e3cf5f;
+    width: 200px!important;
+    text-align: center;
+    border-radius: 16px;
+    font-size:20px;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    color: #6b643c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__subtitulo{
+    width: 100%;
+}
+
+.hobbies__soft__skills {
+    display: flex;
+    justify-content: space-between; /* Espaço entre o texto e a imagem */
+    align-items: flex-start; /* Alinha os itens no topo */
+    gap: 20px; /* Espaço entre o texto e a imagem */
+    width: 100%;
+    margin-top: 80px; 
+    float: left; 
+}
+
+.hobbie {
+    flex: 1 1 60%; /* O texto ocupa 60% da largura do container */
+    text-align: right; /* Alinha o texto à direita */
+    margin-left: 20px;
+}
+
+.hobbie__img {
+    flex: 1 1 40%; /* A imagem ocupa 40% da largura do container */
+    max-width: 300px;
+    object-fit: cover;
+    margin: auto; 
+    float: left; 
+}
+
+.hobbie__img img{
+    border-radius: 50%;
+}
+
+.hobbie__kudo img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para caber no container sem distorção */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+
+.imagem-container {
+    text-align: center; /* Centraliza o conteúdo dentro da div */
+}
+
+.imagem-container img {
+    width: 150px; /* Define um tamanho padrão para todas as imagens */
+    height: auto; /* Mantém a proporção das imagens */
+    margin: 0 10px; /* Espaçamento entre as imagens */
+    display: inline-block; /* Garante que as imagens fiquem alinhadas horizontalmente */
+}
+
+
+/* Alinha as imagens centralizadas */
+.espaco-escola {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens */
+    align-items: center; /* Alinha verticalmente as imagens */
+    gap: 20px; /* Espaçamento entre as imagens */
+    margin-top: 20px;
+}
+
+.espaco-escola img {
+    width: 150px; /* Define um tamanho consistente para todas as imagens */
+    height: auto; /* Mantém a proporção das imagens */
+    object-fit: cover; /* Garante que as imagens se ajustem ao container */
+    border-radius: 8px; /* Bordas arredondadas para um visual suave */
+}
+
+/* Centralizar o texto da seção de cursos */
+.text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.margim_scroll {
+    margin-bottom: 20px;
+}
+
+.experiencia-profissional {
+    margin-bottom: 10px;
+}
+
+.linguagem {
+    margin: 20px;
+    color: #e3cf5f;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between; /* Mantém a lista à esquerda e as imagens à direita */
+    align-items: flex-start; /* Alinha ao topo */
+    gap: 40px; /* Espaço entre a lista e as imagens */
+    margin-top: 20px;
+}
+
+.text {
+    flex: 1;
+}
+
+.programas {
+    list-style: none; /* Remove os marcadores da lista */
+    padding-left: 0; /* Remove o padding padrão da lista */
+}
+
+.programas li {
+    text-align: left; /* Garante que o texto da lista fique alinhado à esquerda */
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+/* Centraliza as imagens e ajusta o tamanho */
+.images {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Organiza as imagens em uma coluna */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 20px; /* Espaçamento entre as imagens */
+}
+
+.images img {
+    width:400px; /* Define um tamanho fixo para todas as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem se ajuste ao tamanho sem distorcer */
+    border-radius: 8px; /* Adiciona bordas arredondadas para um visual mais suave */
+}
+/* Estilos gerais para a seção de contato */
+.contato {
+    background-color: #e3cf5f;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 80%;
+   
+    margin: 0 auto;
+    margin-top: 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:#6b643c;;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilos para os rótulos (labels) */
+form label {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilos para os campos de entrada */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+/* Estilo para o botão de envio */
+form input[type="submit"] {
+    background-color: #6b643c;;
+    color: #e3cf5f;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #6b643c;;
+}
+
+/* Estilos para a mensagem de status */
+#status {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #080808;
+}
+
+.erro {
+    border: 2px solid red;
+}
+.rodape{
+    background-color: #e3cf5f;
+    text-align: center;
+    color: #6b643c;
+    padding: 10px;
+}
+
+.button {
+    background-color: #6b643c;
+    height: 30px;
+    border: 1px solid #000000;
+    color: #f9f8f3;
+    border-radius: 5px;
+}
+
+
+
