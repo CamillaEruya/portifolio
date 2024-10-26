@@ -18,17 +18,17 @@ O desafio foi criar o portifolio somente com HTML, CSS e Javascript sem usar fra
 [https://github.com//CamillaEruya/portifolio/tree/master/img]
 
 <img src="./img/portifolio1.png">
-<img src="./portifolio/img/portifolio2.png">
-<img src="./portifolio/img/portifolio3.png">
-<img src="./portifolio/img/portifolio4.png">
-<img src="./portifolio/img/portifolio5.png">
-<img src="./portifolio/img/portifolioContato1.png">
-<img src="./portifolio/img/portifolioContato2.png">
-<img src="./portifolio/img/portifolioRespMobile1.png">
-<img src="./portifolio/img/portifolioRespMobile2.png">
-<img src="./portifolio/img/portifolioRespTablet1.png">
-<img src="./portifolio/img/portifolioRespTablet2.png">
-<img src="./portifolio/img/portifolioRespMenu.png">
+<img src="./img/portifolio2.png">
+<img src="./img/portifolio3.png">
+<img src="./img/portifolio4.png">
+<img src="./img/portifolio5.png">
+<img src="./img/portifolioContato1.png">
+<img src="./img/portifolioContato2.png">
+<img src="./img/portifolioRespMobile1.png">
+<img src="./img/portifolioRespMobile2.png">
+<img src="./img/portifolioRespTablet1.png">
+<img src="./img/portifolioRespTablet2.png">
+<img src="./img/portifolioRespMenu.png">
 
 
 
